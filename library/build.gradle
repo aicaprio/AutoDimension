@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 27
@@ -10,7 +11,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -19,7 +19,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
 
+publish {
+    userOrg = 'aicaprio'
+    groupId = 'com.topjet.wallet'
+    artifactId = 'autodimension'
+    publishVersion = '1.0.0'
+    desc = 'Dimension automatic adapt to screen.'
+    website = 'https://github.com/aicaprio/AutoDimension'
 }
 
 dependencies {
