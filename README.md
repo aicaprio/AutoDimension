@@ -10,3 +10,4 @@ dependencies {
   compile 'com.topjet.wallet:autodimension:1.0.0'
 }
 ```
+
