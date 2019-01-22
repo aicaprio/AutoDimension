@@ -23,9 +23,9 @@ android {
 
 publish {
     userOrg = 'aicaprio'
-    groupId = 'com.topjet.wallet'
+    groupId = 'org.aicaprio'
     artifactId = 'autodimension'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'Dimension automatic adapt to screen.'
     website = 'https://github.com/aicaprio/AutoDimension'
 }
