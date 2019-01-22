@@ -1,4 +1,4 @@
-package com.topjet.wallet.autodimension.app;
+package org.aicaprio.autodimension;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.topjet.wallet.autodimension.app", appContext.getPackageName());
+        assertEquals("org.aicaprio.autodimension.app", appContext.getPackageName());
     }
 }

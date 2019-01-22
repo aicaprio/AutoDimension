@@ -1,4 +1,4 @@
-package com.topjet.wallet.autodimension.app;
+package org.aicaprio.autodimension;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,7 +14,7 @@ public class CreateFiles {
     /* 输出目录 */
     private static String folderName = "library/src/main/res/";
     /* 屏幕size的集合 以320为基础倍率 */
-    private static int[] screenSize = {320, 360, 380, 390, 410};
+    private static int[] screenSize = {320, 360, 380, 390, 400, 410};
     /* 与倍率对应的文件夹数组 */
     private static List<String> adaptationFolders = new ArrayList<>();
 

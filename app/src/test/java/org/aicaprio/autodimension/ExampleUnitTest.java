@@ -1,4 +1,4 @@
-package com.topjet.wallet.autodimension;
+package org.aicaprio.autodimension;
 
 import org.junit.Test;
 

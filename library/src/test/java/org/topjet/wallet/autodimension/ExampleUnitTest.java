@@ -1,4 +1,4 @@
-package com.topjet.wallet.autodimension.app;
+package org.topjet.wallet.autodimension;
 
 import org.junit.Test;
 

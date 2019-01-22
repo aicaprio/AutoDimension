@@ -1,4 +1,4 @@
-package com.topjet.wallet.autodimension;
+package org.topjet.wallet.autodimension;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
